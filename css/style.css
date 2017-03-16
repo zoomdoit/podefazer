@@ -1,0 +1,283 @@
+body {	
+	line-height: 1.5;
+	margin: 0;
+	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+	color: #373a3c;
+}
+
+.clear{
+	clear:both;	
+}
+
+.destaque {
+	padding: 7px;
+}
+.destaque img {
+   /* width: 100%!important;*/
+}
+.no-pic {
+	/*background-image: url('../img/no-pic.jpg');*/
+}
+
+img.img-video-icon {
+    width: 20%;
+        height: 20% !important;
+}
+
+img.img-loader{
+	    width: 30px;
+    margin-left: 20px;
+	display:none;
+}
+
+.destaque.no-pic .caption {
+	color: #909!important;
+	font-weight: normal;
+	font-style: normal;
+}
+.btn-buy:hover {
+	text-decoration: none;
+	background: #c633c6;
+	border: 2px solid #909;
+	color: white;
+}
+.btn-buy {
+	background: #909;
+	border: 2px solid #c633c6;
+	padding: 8px 30px;
+	border-radius: 10px;
+	color: #ffffff;
+	float: right;
+	margin-bottom: 35px;
+	z-index: 50;
+}
+.caption {
+	position: absolute;
+	z-index: 52;
+	color: white;
+	bottom: 0px;
+	left: 25px;
+	right: 25px;
+	font-size: 20px;
+	line-height: 22px;
+}
+.overlay {
+	background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.4) 100%) repeat scroll 0 0;	
+	position: absolute;
+	border-radius: 8px;
+	top: 7px;
+	bottom: 7px;
+	right: 7px;
+	left: 7px;
+}
+@media screen and (max-width: 320px) {
+	.caption {
+		bottom: 0px;
+		left: 15px;
+		right: 15px;
+		font-size: 18px;
+		line-height: 20px;
+	}
+	.btn-buy {
+		padding: 3px 20px;
+		float: none;
+		display: inline-block;
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+	
+}
+@media screen and (min-width: 768px) {
+	.caption {
+		bottom: 0px;
+		left: 25px;
+		right: 25px;
+		font-size: 20px;
+		line-height: 22px;
+	}
+}
+@media screen and (min-width: 1200px) {
+	.caption {
+		bottom: 10px;
+		left: 35px;
+		right: 35px;
+		font-size: 25px;
+		line-height: 27px;
+	}
+}
+.overlay > .caption {
+	color: #909;	
+}
+.caixa {	
+  color: white;
+  position: relative;
+	/*padding-top: 25px;*/
+}
+.caixa .overlay {
+	top: 75px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+}
+h3.detalhe  {
+	color: #fd552f;
+}
+.nome {
+	bottom: 25px;
+	font-size: 35px;
+	left: 25px;
+	position: absolute;
+	z-index: 500;
+}
+
+.nome.no-pic{
+bottom: inherit;
+    
+    position: inherit;
+	left:inherit;
+	    color: #666;
+}
+
+.idade {
+	font-size: 18px;
+}
+.footer {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffdc3b+100&0+0,1+100 */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,220,59,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,220,59,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,220,59,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffdc3b',GradientType=0 ); /* IE6-9 */
+	color: #4d4d4d;
+	padding: 60px 0 30px;
+	font-size: 10px;
+	text-align: center;
+	background-position: bottom;
+}
+@media screen and (max-width: 360px) {
+	.caixa .overlay {
+		top: 120px;
+	}
+	.caixa {
+		text-align: center;
+	}
+	.nome {
+		bottom: 20px;
+		left: 20px;
+		font-size: 25px;
+		text-align: left;
+	}
+	.footer { 
+	padding: 30px 0 30px;
+	}
+}
+
+
+/********** MODAL **************/
+
+.modal-content {
+	height: 90%;
+}
+
+.modal-body {   
+	height: 100%;
+}
+
+.modal-body iframe {
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+
+.modal.in .modal-dialog {
+	/*height: 100%;*/
+	width: 550px;
+}
+@media screen and (max-width: 360px) {
+	.modal.in .modal-dialog {
+		width: 90%;
+	}
+}
+
+span.glyphicon.glyphicon-remove-sign {
+ 	font-size: 25px;
+	position: absolute;
+	margin-top: -20px;
+	margin-right: 10px;
+	margin-left: 0px;
+	opacity: 1!important;
+	
+	border-radius: 100%;
+	border: 2px solid #c737c7;
+	background-color: #ffffff;
+	color: #909!important;
+	cursor: hand;
+}
+ button.close {   
+    color: white;
+    text-shadow: none;
+    filter: alpha(opacity=20);
+    opacity: .7;
+  
+ }
+/********** @end MODAL *********/
+
+
+/*** addthis ***/
+.addthis_inline_share_toolbox {
+    float: left;
+}
+
+/****** @end addthis ****/
+
+
+.imagem-1-1 img {
+position: absolute;
+    top: 50%;
+  
+    left: 50%;
+  
+    margin: auto;
+    height: 100%;
+   
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+	    max-width: inherit;
+}
+
+.imagem-1-1{
+  position: relative;
+ position: relative;
+    overflow: hidden;
+    padding-bottom: 100%;
+    border-radius: 6px;
+	
+}
+
+.embed-responsive {
+  position: relative;
+  display: block;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.embed-responsive .embed-responsive-item,
+.embed-responsive iframe,
+.embed-responsive embed,
+.embed-responsive object,
+.embed-responsive video {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.embed-responsive-16by9 {
+  padding-bottom: 56.25%;
+}
+.embed-responsive-4by3 {
+  padding-bottom: 75%;
+}
+

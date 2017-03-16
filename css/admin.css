@@ -1,0 +1,28 @@
+.modal-content {
+   
+    height: 100%;
+}
+
+.modal-body {
+   
+    height: 100%;
+}
+
+.modal-body iframe {
+    width: 100%;
+    height: 90%;
+}
+
+.modal.in .modal-dialog {
+
+    height: 100%;
+}
+
+span.glyphicon.glyphicon-remove-sign {
+    font-size: 40px;
+    position: absolute;
+    margin-top: -20px;
+    margin-right: 10px;
+    margin-left: -7px;
+	opacity: 1;
+}

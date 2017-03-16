@@ -1,0 +1,189 @@
+header {
+	height: 100px;
+	background: #ffd100;
+	padding: 18px 0;
+	-webkit-box-shadow: 0 5px 10px 0 rgba(50,50,50,.3);
+	-moz-box-shadow: 0 5px 10px 0 rgba(50,50,50,.3);
+	box-shadow: 0 5px 10px 0 rgba(50,50,50,.3);
+	position: relative;
+	z-index: 1001;
+	margin-bottom: 25px;
+	
+    top: 0;
+    left: 0;
+    /* z-index: 999; */
+    width: 100%;
+    height: 100px;
+}
+
+
+#header-iframe{
+
+    position: relative;
+    z-index: 1001;
+    margin-bottom: 25px;
+}
+
+header#scrollDiv2 {
+	position: fixed;
+	display:none;
+	height:60px;
+}
+
+header#scrollDiv1 .abbott-logo{
+	margin-top: 35px;
+}
+
+header#scrollDiv2 .abbott-logo{
+}
+
+.container.freestyle {
+   /* margin-top: 120px; */
+}
+
+.bloco-logo {
+	z-index: 1;
+	display: block;
+	position: relative;
+}
+
+.logo {
+	width: 100px;
+	margin-top: -6px
+}
+.logo.small {
+	display: none;
+	width: 145px;
+}
+.abbott-logo {
+	width: 120px;
+	
+}
+@media (max-width:768px) {
+header {
+	text-align: center
+}
+.logo {
+	display: none
+}
+.logo.small {
+	display: inline-block!important;
+	float: none!important
+}
+.abbott-logo {
+	display: none
+}
+}
+header .nav-menu {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	list-style: none;
+	margin: 0;
+	padding: 0
+}
+
+#header-iframe .nav-menu{
+	bottom: 0;
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+	margin-right: -5px;
+}
+body.mini-header header .abbott-logo, body.mini-header .logo {
+	margin-top: -2px
+}
+header .nav-menu li {
+	display: inline-block;
+	margin: 0 -2px;
+	
+}
+
+
+#header-iframe .nav-menu li {
+    display: inline-block;
+    margin: 0 -2px;
+	margin-left: 5px;
+}
+
+
+#header-iframe .nav-menu li a {
+    display: inline-block;
+    background: #fff;
+    color: #5d5953;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+header .nav-menu li a {
+	display: inline-block;
+	background: #fff;
+	color: #5d5953;
+	padding: 10px 30px;
+	text-decoration: none;
+}
+header .nav-menu li a:hover {
+	background-color: #e8e8e8;
+}
+
+#header-iframe .nav-menu li a:hover {
+	background-color: #e8e8e8;
+}
+@media (max-width:360px) {
+header .nav-menu li a {
+	padding: 10px
+}
+}
+
+#header-iframe .nav-menu li.inserir a {
+	background: #F8971D;
+	color: white;
+}
+
+#header-iframe .nav-menu li.inserir:hover a{
+	background: #e8e8e8; !important;
+	color: #F8971D;
+}
+
+#header-iframe .nav-menu li.vertodos a {
+	background: #ffc9ff;
+	color: #909;
+}
+
+#header-iframe .nav-menu li.vertodos:hover a{
+	background: #e8e8e8; !important;
+	color: #F8971D;
+}
+
+header .nav-menu li.inserir a {
+	background: #F8971D;
+	color: white;
+}
+
+header .nav-menu li.inserir:hover a{
+	background: white !important;
+	color: #F8971D;
+}
+
+header .nav-menu li.loja a {
+	background: #ffc9ff;
+	color: #909;
+}
+header .nav-menu li.loja:hover a{
+	background: #F8971D!important;
+	color: white;
+}
+header .nav-menu li a.active {
+	background: #f8971d;
+	color: #fff
+}
+header .nav-menu li:first-child a {
+	border-radius: 8px 0 0
+}
+header .nav-menu li:last-child a {
+	border-radius: 0 8px 0 0
+}
